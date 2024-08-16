@@ -1,0 +1,456 @@
+
+
+h1.border-bottom {
+  display: inline-block;
+  border-bottom: 5px solid rgb(233, 46, 46) !important; /* Adjust the border size and color as needed */
+  padding-bottom: 5px; /* Adjust the space between the text and border */
+  margin: 0 auto; /* Center the inline-block element */
+  color:  rgb(233, 46, 46) !important;
+}
+/* .container {
+  text-align: center;
+} */
+/* one by apply border bottom */
+h1.border-bottom2 {
+  display: inline-block;
+  border-bottom: 5px solid black !important; /* Adjust the border size and color as needed */
+  padding-bottom: 5px; /* Adjust the space between the text and border */
+  margin: 0 auto; /* Center the inline-block element */
+  
+}
+.slider {
+  text-align: center;
+}
+/* overlasy */
+.overlay-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+.overlay-container img {
+    width: 100%;
+    height: 540px;
+    object-fit: cover; /* Ensures the image covers the container properly */
+    display: block; /* Ensure image is displayed by default */
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffa365;
+    padding: 20px;
+    max-width: 800px; /* Adjust this width as needed */
+    text-align: left; /* Default alignment */
+    background-color: rgba(255, 255, 255, 0.7); /* Optional background for better readability */
+}
+
+.overlay-text h1, .overlay-text p {
+    margin: 0;
+}
+
+.overlay-container h1 {
+    font-weight: 800;
+    font-size: 60px;
+    color: black;
+}
+
+.herobtn {
+    width: 190px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #ffa365;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .overlay-container img {
+        height: 300px; /* Adjust the image height for smaller screens */
+    }
+
+    .overlay-text {
+        max-width: 100%; /* Ensure the text takes up more space on smaller screens */
+        padding: 10px; /* Reduce padding */
+        background-color: rgba(255, 255, 255, 0.9); /* Increase background opacity for readability */
+        text-align: center; /* Center text on mobile devices */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Ensure perfect centering */
+    }
+
+    .overlay-text h1 {
+        font-size: 10px; /* Decrease font size for better readability on mobile */
+    }
+    .overlay-text h3 {
+      font-size: 10px; /* Decrease font size for better readability on mobile */
+  }
+
+    .herobtn {
+        width: 200px; /* Reduce button width */
+        padding: 8px; /* Adjust padding */
+        font-size: 14px; /* Adjust font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .overlay-container img {
+        height: 180px; /* Further adjust image height for very small screens */
+    }
+
+    .overlay-text h1 {
+        font-size: 10px; /* Further decrease font size */
+    }
+
+    .herobtn {
+        width: 180px; /* Further reduce button width */
+        padding: 6px; /* Adjust padding */
+        font-size: 12px; /* Adjust font size */
+    }
+}
+
+    .cardicon img{
+    height: 200px;
+    }
+    .card-body{
+      height: 200px;
+    }
+
+
+    /*  */
+
+    /* logo slider */
+.slide img {
+    width: 100px;
+    height: 100px;
+    animation: scroll 15s linear infinite;
+    border-radius: 10px;
+  }
+  
+  .slide-track {
+    width: 100%;
+    display: flex;
+    gap: 3em;
+    overflow: hidden;
+  }
+  
+  .slider {
+    margin-top: 70px;
+    background-color: #ff914d99;
+    ;
+    padding: 2em 2em;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+  
+    100% {
+      transform: translatex(-1000%)
+    }
+  }
+  
+  /* end logo slider */
+  /* Contact form start */
+  /* Center the form */
+  .contact-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* end */
+
+
+
+  /* story start */
+  
+  .timeline {
+    position: relative;
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 15px 0;
+  }
+  
+  .timeline::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background: #006E51;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+  }
+  
+  .containertime {
+    padding: 15px 30px;
+    position: relative;
+    background: inherit;
+    width: 50%;
+  }
+  
+  .containertime.left {
+    left: 0;
+  }
+  
+  .containertime.right {
+    left: 50%;
+  }
+  
+  .containertime::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: calc(50% - 8px);
+    right: -8px;
+    background: #ffffff;
+    border: 2px solid #006E51;
+    border-radius: 16px;
+    z-index: 1;
+  }
+  
+  .containertime.right::after {
+    left: -8px;
+  }
+  
+  .containertime::before {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 2px;
+    top: calc(50% - 1px);
+    right: 8px;
+    background: #006E51;
+    z-index: 1;
+  }
+  
+  .containertime.right::before {
+    left: 8px;
+  }
+  
+  .containertime .date {
+    position: absolute;
+    display: inline-block;
+    top: calc(50% - 8px);
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #006E51;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    z-index: 1;
+  }
+  
+  .containertime.left .date {
+    right: -75px;
+  }
+  
+  .containertime.right .date {
+    left: -75px;
+  }
+  
+  .containertime .icon {
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    padding: 9px 0;
+    top: calc(50% - 20px);
+    background: #e7e1ce;
+    border: 2px solid #006E51;
+    border-radius: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #006E51;
+    z-index: 1;
+  }
+  
+  .containertime.left .icon {
+    right: 56px;
+  }
+  
+  .containertime.right .icon {
+    left: 56px;
+  }
+  
+  .containertime .content {
+    padding: 30px 90px 30px 30px;
+    background: #c4e6df;
+    position: relative;
+    border-radius: 5px;
+  
+  }
+  
+  .containertime.right .content {
+    padding: 30px 30px 30px 90px;
+  border-radius: 5px;
+  }
+  .containertime.left .content {
+    padding: 30px 80px 30px 90px;
+  border-radius: 5px;
+  }
+  
+  .containertime .content h2 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    font-weight: normal;
+    color: #006E51;
+  }
+  
+  .containertime .content p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+  }
+  
+  @media (max-width: 767.98px) {
+    .timeline::after {
+      left: 90px;
+    }
+  
+    .containertime {
+      width: 100%;
+      padding-left: 120px;
+      padding-right: 30px;
+    }
+  
+    .containertime.right {
+      left: 0%;
+    }
+  
+    .containertime.left::after, 
+    .containertime.right::after {
+      left: 82px;
+    }
+  
+    .containertime.left::before,
+    .containertime.right::before {
+      left: 100px;
+      border-color: transparent #006E51 transparent transparent;
+    }
+  
+    .containertime.left .date,
+    .containertime.right .date {
+      right: auto;
+      left: 15px;
+    }
+  
+    .containertime.left .icon,
+    .containertime.right .icon {
+      right: auto;
+      left: 120px;
+    }
+  
+    .containertime.left .content ,
+    .containertime.right .content {
+      padding: 30px 30px 30px 60px;
+      /* border-radius: 500px 0 0 500px; */
+    }
+  }
+
+/* story css end */
+
+/* our mission */
+.ourmission{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.imgaboutus{
+  height: 400px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+/* last banner */
+.image-container {
+  position: relative;
+  width: 100%; /* Ensures the image container takes the full width */
+  margin: 0; /* Removes any default margin */
+  padding: 0; /* Removes any default padding */
+}
+.image-container img {
+  width: 100%; /* Makes sure the image takes the full width of the container */
+  height: auto; /* Keeps the aspect ratio */
+  display: block; /* Ensures no extra space at the bottom */
+}
+.btn-group-custom {
+  position: absolute;
+  bottom: 30px; /* Position the buttons at the bottom of the image */
+  left: 65%;
+  transform: translateX(-50%); /* Center the buttons horizontally */
+  display: flex;
+  justify-content: center;
+}
+.btn-group-custom .btn {
+  margin: 0 5px; /* Adds spacing between buttons */
+  font-size: 1rem; /* Default font size for buttons */
+  padding: 0.5rem 1rem; /* Default padding for buttons */
+}
+
+/* Media Queries for different devices */
+@media (max-width: 768px) {
+  .btn-group-custom {
+      bottom: 15px; /* Adjust the bottom position for smaller tablets */
+  }
+  .btn-group-custom .btn {
+      margin: 0 3px; /* Reduce space between buttons on smaller screens */
+      font-size: 0.875rem; /* Slightly smaller font size */
+      padding: 0.2rem 0.4rem; /* Slightly smaller padding */
+  }
+}
+
+@media (max-width: 576px) {
+  .btn-group-custom {
+      bottom: 2px; /* Position the buttons slightly higher on mobile devices */
+      flex-direction: row; /* Stack buttons vertically */
+      left: 50%;
+      transform: translateX(-50%);
+  }
+  .btn-group-custom .btn {
+      margin: 5px 0; /* Add vertical margin for stacked buttons */
+  width: 80px;
+      font-size: 7px; /* Smaller font size for mobile */
+      margin-left: 4px;
+  }
+}
+.logo{
+  width: 150px;
+  height: 60px;
+}
+.navbar{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.navbar .nav-link{
+font-weight: 500 !important;
+}
+.navbar .nav-link:hover{
+  color: red;
+}
+.logo{
+width: 180px;
+height: 65px;
+}
+.navbar{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.navbar .nav-link{
+font-weight: 500 !important;
+}
+.navbar .nav-link:hover{
+  color: red;
+}
+.logo{
+width: 180px;
+height: 65px;
+}

@@ -1,0 +1,247 @@
+
+a{
+    text-decoration: none;
+}
+  .bottom{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color:  rgb(233, 46, 46) !important;
+    ;
+    border-bottom: 3px solid rgb(233, 46, 46); /* Border bottom */
+    padding-bottom: 5px; /* Adds some space between the text and the border */
+    width: fit-content; /* Fits the border to the text width */
+    margin: 0 auto; /* Centers the h2 within its container */
+  }
+  
+
+/* overlay start */
+.overlay-container {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+}
+
+.overlay-container img {
+    width: 100%;
+    object-fit: cover; /* Ensures the image covers the container properly */
+    display: block; /* Ensure image is displayed by default */
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffa365;
+    padding: 20px;
+    text-align: left; /* Default alignment */
+    background-color: rgba(255, 255, 255, 0.7); /* Optional background for better readability */
+}
+
+.overlay-text h1, .overlay-text p {
+    margin: 0;
+}
+
+.overlay-container h1 {
+    font-weight: 800;
+    font-size: 60px;
+    color: black;
+}
+
+.herobtn {
+    width: 190px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 40px;
+    background-color: #ffa365;
+    border: none;
+}
+
+
+@media (max-width: 768px) {
+    .overlay-container img {
+        height: 300px; /* Adjust the image height for smaller screens */
+    }
+
+    .overlay-text {
+        max-width: 100%; /* Ensure the text takes up more space on smaller screens */
+        padding: 10px; /* Reduce padding */
+        background-color: rgba(255, 255, 255, 0.9); /* Increase background opacity for readability */
+        text-align: center; /* Center text on mobile devices */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Ensure perfect centering */
+    }
+
+    .overlay-text h1 {
+        font-size: 10px; /* Decrease font size for better readability on mobile */
+    }
+    .overlay-text h3 {
+      font-size: 10px; /* Decrease font size for better readability on mobile */
+  }
+
+    .herobtn {
+        width: 200px; /* Reduce button width */
+        padding: 8px; /* Adjust padding */
+        font-size: 14px; /* Adjust font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .overlay-container img {
+        height: 180px; /* Further adjust image height for very small screens */
+    }
+
+    .overlay-text h1 {
+        font-size: 10px; /* Further decrease font size */
+    }
+
+    .herobtn {
+        width: 180px; /* Further reduce button width */
+        padding: 6px; /* Adjust padding */
+        font-size: 12px; /* Adjust font size */
+    }
+}
+/* overlay end */
+/* owl carsoule slider css */
+.owl-carousel{
+    background-color: #ff914d99;;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.owl-carousel a{
+    text-decoration: none;
+}
+.owl-carousel .item {
+    background: #fff;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 350px;
+}
+
+.owl-carousel .item img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+.owl-carousel .item h4 {
+    margin: 15px 0 10px;
+   font-size: 20px; /* Increase font size */
+}
+
+.owl-carousel .item p {
+    font-size: 16px; /* Increase font size */
+    color: #555;
+}
+
+.owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background for better visibility */
+    border: none;
+    color: yellow; /* Change arrow color */
+    font-size: 30px; /* Increase font size */
+    cursor: pointer;
+    padding: 10px; /* Add padding */
+    border-radius: 50%; /* Make buttons circular */
+}
+
+.owl-nav .owl-prev {
+    left: 10px;
+}
+
+.owl-nav .owl-next {
+    right: 10px;
+}
+
+.owl-nav button:hover {
+    background-color: rgba(0, 0, 0, 0.9); /* Darker background on hover */
+}
+
+.owl-dots {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.owl-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.owl-dot.active {
+    background-color: #000;
+}
+/* end */
+/* contact form */
+.contact-form {
+    background: #fff;
+    margin-top: 5%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+.form-control {
+    border-radius: 5px;
+}
+.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #333;
+}
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+/* end */
+
+
+.corporate .card-img-top{
+    height: 250px;
+}
+
+  .logo{
+    width: 150px;
+    height: 60px;
+  }
+  .navbar{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+  .navbar .nav-link{
+  font-weight: 500 !important;
+  }
+  .navbar .nav-link:hover{
+    color: red;
+  }
+  .logo{
+  width: 180px;
+  height: 65px;
+  }
+  .navbar{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+  .navbar .nav-link{
+  font-weight: 500 !important;
+  }
+  .navbar .nav-link:hover{
+    color: red;
+  }
+  .logo{
+  width: 180px;
+  height: 65px;
+  }

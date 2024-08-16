@@ -1,0 +1,357 @@
+.logo{
+  width: 150px;
+  height: 60px;
+}
+
+/* footer */
+.footer{
+    background-color: #4a4a4a;
+    color:black;
+    padding-top: 10px;
+}
+.logo-footer{
+    width: 180px;
+    height: 100px;
+    text-align: center;
+}
+.footer a,li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+.footer h4{
+    border-bottom: 3px solid red;
+    padding-bottom: 5px;
+    width: auto;
+}
+.footer .fa-brands{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.btn-primarynewsletter{
+    background-color: red ;
+    color:black;
+    font-weight: 600;
+    width: 180px;
+    
+}
+.btn-primarynewsletter:hover{
+     background-color: brown ;
+    
+}
+.footer-heading{
+    /* text-align: center; */
+    color: white;
+}
+/* footer/end */
+a{
+    text-decoration: none;
+}
+.image{
+    position: relative;
+    text-align: center;
+    margin: 1rem;
+    width: 60%;
+    height: 200px;
+    border-radius: 600px solid black;
+    margin-left: 120px;
+}
+.heading-section{
+    background-color: #FFF7F0;
+    color: black;
+    font-weight: 300;
+}
+.heading{
+    text-align: center;
+}
+.image-achievemets{
+    width: 415px;
+    height: 300px;
+}
+body{
+    background-color: #FFFFFF;
+}
+
+.home-btn{
+    display: flex;
+    margin-left: 100px;
+    text-align: center;
+}
+.navbar{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.navbar .nav-link{
+font-weight: 500 !important;
+}
+.navbar .nav-link:hover{
+  color: red;
+}
+.logo{
+width: 180px;
+height: 65px;
+}
+  
+.image-info{
+    width: 100%;
+    height: 400px;
+}
+.slider{
+    float: left;
+    width: 100%;
+    height: 400px;
+}
+.btn-slider{
+    width: 100%;
+    height: 600px;
+}
+.first-div{
+    background-color: #F07F22;
+    color: white !important;
+}
+/* Our Innatives button*/
+.centered-button {
+  color: white;
+  width: 50%;
+  margin-bottom: 8px;
+}
+
+/* Media queries for mobile devices */
+@media (max-width: 768px) {
+  .centered-button {
+      width: 80%;
+      margin: 0 auto;
+  }
+}
+/* button end */
+/* OurMission */
+.card {
+    border: none;
+  }
+  
+  .card-title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .signature {
+    margin-top: 2rem;
+    font-size: 1rem;
+  }
+  
+  .signature strong {
+    font-size: 1.1rem;
+  }
+.card-img{
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+}
+/* faltu */
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .image-style{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+  }
+  .btn-about:hover{
+    background-color: aqua;
+    color: blue;
+  }
+  .video-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+  }
+
+  .bottom{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color:  rgb(233, 46, 46) !important;
+    ;
+    border-bottom: 3px solid rgb(233, 46, 46); /* Border bottom */
+    padding-bottom: 5px; /* Adds some space between the text and the border */
+    width: fit-content; /* Fits the border to the text width */
+    margin: 0 auto; /* Centers the h2 within its container */
+  }
+
+.footer-logo{
+    width: 100px;
+    height: 60px;
+    text-align: center;
+}
+
+/* media query for devices */
+/* Default Styles (Desktop and larger screens) */
+.left-section h1,
+.left-section h4 {
+    text-align: left;
+}
+
+.carousel-caption h5 {
+    font-size: 1.5rem;
+}
+
+.carousel-caption p {
+    font-size: 1rem;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 991.98px) {
+    .left-section h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .left-section h4 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1.25rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.875rem;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+    .left-section h1 {
+        font-size: 1.75rem;
+        text-align: center;
+    }
+
+    .left-section h4 {
+        font-size: 0.875rem;
+        text-align: center;
+    }
+
+    .carousel-caption h5 {
+        font-size: 1rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.75rem;
+    }
+
+    .carousel-caption {
+        padding: 10px;
+        display: block; /* Ensure text is displayed */
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .left-section {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .left-section h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .left-section h4 {
+        font-size: 0.75rem;
+        text-align: center;
+    }
+
+    .carousel-caption h5 {
+        font-size: 0.875rem;
+    }
+
+    .carousel-caption p {
+        font-size: 0.7rem;
+    }
+
+    .carousel-caption {
+        padding: 5px;
+        display: block; /* Ensure text is displayed */
+    }
+
+    .carousel-item img {
+        height: auto;
+        width:100%;
+    }
+}
+
+
+.carousel-caption {
+  display: block !important; /* Ensure visibility */
+  opacity: 1 !important; /* Make sure it's fully visible */
+  color: #fff; /* Ensure text is visible against the background */
+  background-color: rgba(0, 0, 0, 0.5); /* Optional: Add background for readability */
+  padding: 10px; /* Optional: Add padding */
+}
+
+@media (max-width: 767.98px) {
+  .carousel-caption {
+      font-size: 0.875rem; /* Adjust font size for mobile */
+      bottom: 10px; /* Adjust position */
+  }
+}
+
+@media (max-width: 575.98px) {
+  .carousel-caption {
+      font-size: 0.75rem; /* Further adjust font size for smaller screens */
+      bottom: 5px; /* Further adjust position */
+  }
+}
+
+
+.col-md-6 {
+  padding: 0;
+  margin: 0;
+}
